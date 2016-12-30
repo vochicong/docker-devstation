@@ -1,8 +1,9 @@
 FROM amazonlinux
 
-RUN yum update -y;\
+RUN yum update -y&&\
  yum install -y\
  cowsay lolcat\
  vim git\
- python27-pip;\
- yum clean all
+ python27-pip aws-cli&&\
+ yum clean all&&\
+ pip install --upgrade awsebcli

@@ -1,5 +1,9 @@
 # docker-devstation
-Development station, based on Amazon Linux, including Vim, git etc.
+Development station, based on Amazon Linux, including
+- Vim
+- git
+- mysql
+- etc.
 
 ## Usage:
 ### On host:

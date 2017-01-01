@@ -5,6 +5,7 @@ RUN yum update -y &&\
  yum install -y \
  cowsay lolcat \
  vim git \
+ mysql56 \
  yum clean all &&\
  curl -O https://bootstrap.pypa.io/get-pip.py &&\
  python27 get-pip.py &&\

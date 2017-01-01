@@ -21,6 +21,11 @@ Or, to download and run:
 docker-compose run devstation bash --login
 ~~~
 
+If time drift happens, fix it:
+~~~
+docker-compose run devstation date -s "$(date -u '+%Y/%m/%d %H:%M:%S')"
+~~~
+
 ### Inside guest:
 Try
 ~~~

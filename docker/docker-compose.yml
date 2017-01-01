@@ -13,3 +13,5 @@ services:
     volumes:
       - ~/workspace:/workspace
       - ../roothome:/root
+    hostname: devstation
+    privileged: true

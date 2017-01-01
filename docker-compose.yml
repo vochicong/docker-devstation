@@ -1,10 +1,15 @@
 version: '2'
 
 services:
-  devstation:
+  devstation-build:
     build:
       context: .
       dockerfile: Dockerfile
+    volumes:
+      - .:/workspace
+      - ./roothome:/root
+  devstation:
+    image: vochicong/devstation:0.1
     volumes:
       - .:/workspace
       - ./roothome:/root

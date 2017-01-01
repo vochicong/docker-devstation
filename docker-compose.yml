@@ -6,4 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/root
+      - .:/workspace
+      - ./roothome:/root

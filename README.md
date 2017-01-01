@@ -4,7 +4,7 @@ Development station, based on Amazon Linux, including Vim, git etc.
 ## Usage:
 ### On host:
 ~~~
-docker-compose run --workdir=/root devstation bash
+docker-compose run --workdir=/root devstation bash --login
 ~~~
 
 ### Inside guest:

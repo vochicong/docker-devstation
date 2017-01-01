@@ -6,10 +6,10 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/workspace
-      - ./roothome:/root
+      - ~/workspace:/workspace
+      - ../roothome:/root
   devstation:
     image: vochicong/devstation:0.1
     volumes:
-      - .:/workspace
-      - ./roothome:/root
+      - ~/workspace:/workspace
+      - ../roothome:/root

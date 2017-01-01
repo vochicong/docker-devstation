@@ -5,6 +5,8 @@ Development station, based on Amazon Linux, including
 - mysql
 - etc.
 
+Time zone is set to JST (Japan).
+
 ## Usage:
 ### On host:
 Preparation:

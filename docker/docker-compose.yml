@@ -9,7 +9,7 @@ services:
       - ~/workspace:/workspace
       - ../roothome:/root
   devstation:
-    image: vochicong/devstation:0.2.1
+    image: vochicong/devstation:0.3
     volumes:
       - ~/workspace:/workspace
       - ../roothome:/root

@@ -1,8 +1,10 @@
 # docker-devstation
 Development station, based on Amazon Linux, including
 - Vim
-- git
+- git, diffutils
 - mysql
+- tmux
+- awscli, awsebcli
 - etc.
 
 Time zone is set to JST (Japan).
@@ -43,4 +45,6 @@ vim
 ~~~
 
 ## Refs:
-- https://hub.docker.com/_/amazonlinux
+- Source on GitHub: [vochicong/docker-devstation](https://github.com/vochicong/docker-devstation)
+- Builds on Docker Hub: [vochicong/devstation](https://cloud.docker.com/app/vochicong/repository/docker/vochicong/devstation)
+- [Amazon Linux Docker](https://hub.docker.com/_/amazonlinux)
